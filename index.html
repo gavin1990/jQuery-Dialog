@@ -8,7 +8,7 @@
 $(function(){
 	var x_Dialog ={
 		/**定位弹出层*/
-	    dialogBox: function(){
+		dialogBox: function(){
 			var objW = $(window),
 			objC = $(".dialog"),
 			brsW = objW.width(),
@@ -19,7 +19,7 @@ $(function(){
 			curH = objC.height(),
 			left = sclL + (brsW - curW)/2,
 			top = sclT + (brsH - curH)/2;
-        objC.css({"left":left,"top":top});
+	        	objC.css({"left":left,"top":top});
 		},
 		/**弹出层位置响应*/
 		winResize:function(){
@@ -31,8 +31,8 @@ $(function(){
 			});
 		},
 		close:function(){
-				$(".dialog").removeClass("dialog").hide();
-				$(".mask").hide();
+			$(".dialog").removeClass("dialog").hide();
+			$(".mask").hide();
 		},
 		/**显示弹出层*/
 		showDialog:function(btn,boxCon){
