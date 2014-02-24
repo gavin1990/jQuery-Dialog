@@ -5,7 +5,8 @@ jQuery-Dialog
 
 源代码：
 
-<pre><code><!Doctype html>
+```
+<!Doctype html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -97,4 +98,5 @@ body{font-size:14px;padding:0;margin:0}
 <div style="width:200px;height:1200px;background:#eee"></div>
 </body>
 </html>
-</code></pre>
+```
+
